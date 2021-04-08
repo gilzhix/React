@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 function Hola(){
+    let saludo = 'Variable saludo!'
     return(
-        <div>
-            <h2>Primer Componente Hola!</h2>
-            
-        </div>
+        <Fragment>
+            <h2>Primer Componente Hola! {saludo}</h2>
+            <p>Segundo texto</p>
+        </Fragment>
     )
 }
 
